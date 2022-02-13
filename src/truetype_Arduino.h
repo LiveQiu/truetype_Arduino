@@ -11,7 +11,7 @@
 #include "SPI.h"
 #endif /*_SPI_H_INCLUDED*/
 
-#if defined ESP32
+#if defined(ESP8266) || defined(ESP32)
 #include "FS.h"
 #endif /*FS_H*/
 
